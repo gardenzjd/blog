@@ -1,5 +1,5 @@
 Host github.com
-  User gardenzjd
+  User git
   StrictHostKeyChecking no
   IdentityFile ~/.ssh/nopass
   IdentitiesOnly yes
