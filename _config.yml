@@ -77,7 +77,8 @@ theme: yilia
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+## https://github.com/gardenzjd/gardenzjd.github.io
 deploy:
   type: git
-  repository: https://github.com/gardenzjd/gardenzjd.github.io
+  repository: git@github.com:gardenzjd/gardenzjd.github.io
   branch: master
