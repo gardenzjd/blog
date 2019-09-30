@@ -2,7 +2,7 @@ language: node_js
 node_js: stable
 before_install:
 - openssl aes-256-cbc -K $encrypted_f50a8a8bc67c_key -iv $encrypted_f50a8a8bc67c_iv
-  -in nopass.enc -out ~\/.ssh/nopass -d
+  -in nopass.enc -out ~/.ssh/nopass -d
 - chmod 600 ~/.ssh/nopass
 - eval $(ssh-agent)
 - ssh-add ~/.ssh/nopass
